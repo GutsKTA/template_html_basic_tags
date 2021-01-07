@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basic Tags</title>
+</head>
+<body>
+  <!-- HTML basic tags -->
+  <h1>HTML basic tags (h1)</h1>
+  <h2>Let's check the headings (h2)</h2>
+  <h3>Deeper</h3>
+  <h4>Deeper</h4>
+  <h5>Deeper</h5>
+  <h6>More deep</h6>
+
+  <div>
+    <p>It's div and inside we have <span style="vertical-align: sub">span</span></p>
+  </div>
+
+  <p>New paragraph that describes super fun story. What if we need a new line inside this<br>
+    story... Or some <b>bold</b> text or <i>italic</i>. 
+    Did you know that they can have similar tags like <strong>strong</strong> or <em>em</em>. (<b>No,</b> <i>I didn't know</i>)
+  </p>
+
+  <p>How do you think, is it correct to put div inside p or it could cause problems?<br>
+    (It's incorrect becouse div will brake p.)</p>
+
+  <p>You can check it by <a href="https://validator.w3.org/" target="_blank">w3 markup validation service</a>. 
+    Please, pay attention that this service is opened in a new tab by default. How it may happen?
+  </p>
+
+  <p>Also it would be a lot of fun to create an image with a link like this one:</p>
+  <a href="https://it-knights-fe.oa.r.appspot.com/" target="_blank">
+    <img src="https://it-knights-fe.oa.r.appspot.com/static/media/logo2.87ecbb13.png" alt="logo" width="300">
+  </a>
+
+  <!-- Lists are also important part of HTML -->
+  <h2>Lists are also important part of HTML. If you need to show some entities that repeat, you should
+    consider list tag</h2>
+
+  <h3>Unordered list</h3>
+  <p>Can be used if elements order is not important. List items don't have numbers near with themselfs</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <h3>Ordered list</h3>
+  <p>Here we have numbers, but be careful, not always such numbers looks exactly like we wish, anyway, 
+    it's a part of css and for semantic it's important to mark if
+    the list is ordered or no
+  </p>
+  <ol type = "1">
+    <li> Item 1</li>
+    <li> Item 2</li>
+  </ol>
+
+  <h3>Definitions list</h3>
+  <dl>
+    <dt>Term 1</dt>
+    <dd>Some definition of Term 1</dd>
+    <dt>Term 2</dt>
+    <dd>Some definition of Term 2</dd>
+  </dl>
+  <p><q>Sometimes it's useful to know how to make a quoted text :)</q></p>
+
+  <!-- And finalty forms -->
+  <h3>And finalty forms</h3>
+
+  <form>
+    <p>It's a complex part, be carefult with it</p>
+    <p>Input label is important part for any input <input type="text" name="input"></p>
+    <textarea name="textarea" rows="10" cols="30" placeholder="Better use placeholder">Textarea</textarea>
+
+    <div class="optioans">
+      <select>
+        <option>option 1</option>
+        <option>option 2</option>
+        <option>option 3</option>
+        <option>option 4</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="checkbox">Let's have the checkbox</label>
+      <input type="checkbox" id="checkbox">
+    </div>
+
+    <div class="radio">
+      <p>Let's have the radio (that switches between each other and text is clickable, not just radio circle)
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </p>
+    </div>
+
+    <div class="buttons">
+      <button type="submit">Button submit</button>
+      <input type="submit" value="Input submit">
+    </div>
+
+    <p>Please, pay attention to what happens when you submit a form (check URL address).</p>
+  </form>
+
+  <hr>
+
+  <p>And let's mention tags that you should use to accomplish this task:</p>
+  <ul>
+    <li>HTML &lt;!DOCTYPE&gt; Declaration</li>
+    <li>html</li>
+    <li>head</li>
+    <li>meta - charset and viewport</li>
+    <li>title</li>
+    <li>body</li>
+    <li>h1, h2, ... , h6</li>
+    <li>div and span</li>
+    <li>p, i, b, q, strong, em, br, hr</li>
+    <li>a</li>
+    <li>img</li>
+    <li>ul, ol, li</li>
+    <li>dl, dt, dd</li>
+    <li>form, input, textarea, select, option, button</li>
+  </ul>
+
+</body>
+</html>
